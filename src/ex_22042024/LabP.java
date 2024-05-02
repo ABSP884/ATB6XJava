@@ -1,0 +1,17 @@
+package ex_22042024;
+
+import java.util.Scanner;
+
+public class LabP {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter one number");
+        int num = sc.nextInt();
+        long fact = 1;
+        for (int i=1;i<=num;i++){
+            fact=fact*i;
+            }
+        System.out.println(fact);
+       sc.close();
+    }
+}

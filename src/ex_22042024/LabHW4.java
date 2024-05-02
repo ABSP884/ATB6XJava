@@ -17,6 +17,7 @@ public class LabHW4 {
         }else {
             System.out.println("Negative");
         }
+        sc.close();
     }
 
 
